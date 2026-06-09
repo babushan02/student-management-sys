@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-from app.controllers import student_controller as ctrl
+import app.controllers.students_controllers as ctrl
 
 student_bp = Blueprint("students", __name__, url_prefix="/api/students")
 

@@ -3,7 +3,7 @@ from datetime import date
 from flask import jsonify, request
 
 from app.extensions import db
-from app.models.student_model import Student
+from app.models.students_models import Student
 
 
 def _validate_student_payload(data, student_id=None):
